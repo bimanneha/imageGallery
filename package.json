@@ -3,14 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
-    "deploy": "gh-pages -d dist",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "homepage": "https://bimanneha.github.io/imageGallery",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.0",

@@ -12,16 +12,21 @@ export class ImgurDataService {
   }
 
   apiGetAllImages(newFilterParamObject) {
+
     const filterString = UtilityService.concatURL(newFilterParamObject);
+
     return this.http.get('api/' + filterString);
   }
 
   getAllFilteredImages(newFilterParamObject) {
+
     const filterString = UtilityService.concatURL(newFilterParamObject);
+
     return this.http.get('api/' + filterString);
   }
 
   getImageDetails(imageId) {
+
     return this.http.get('api/' + imageId);
   }
 }

@@ -5,10 +5,8 @@
     "logLevel": "debug",
     "changeOrigin": true,
     "pathRewrite": {
-      "^/api": "/"
+      "^/api": ""
     },
-    "headers": {"Authorization": "Client-ID b2dd06590440a49="}
+    "headers": {"Authorization": "Client-ID b2dd06590440a49"}
   }
 }
-
-
